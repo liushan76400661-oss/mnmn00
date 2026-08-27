@@ -81,16 +81,16 @@ except ImportError:
 # ⚙️  الإعدادات الأساسية
 # ═══════════════════════════════════════════════════════════════════════════════
 
-BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8965738651:AAGp6Fw6693CGME-9rCXNjR176gOKx3ieSM")
+BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8780918664:AAHZ4bJswElkLX52RR2bgOQsexXD6n3gQaw")
 
-_admin_env = os.getenv("ADMIN_IDS", "5675880160 ")
+_admin_env = os.getenv("ADMIN_IDS", "7447844839 ")
 ADMIN_IDS: List[int] = []
 for _x in _admin_env.split(","):
     _x = _x.strip()
     if _x.lstrip("-").isdigit():
         ADMIN_IDS.append(int(_x))
 if not ADMIN_IDS:
-    ADMIN_IDS = [5675880160 ]
+    ADMIN_IDS = [7447844839 ]
 
 DEFAULT_STARS_PER_10_POINTS: int = 15
 
